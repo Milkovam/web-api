@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+}
+html {
+   background: linear-gradient(150deg, whitesmoke 20%, lightgray 80%);;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+
+}
+
+#app{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+
+
+}
+h1 {
+    padding: 20px 42px;
+    left:60%;
+}
+.btn-app
+{
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:40%;
+    height: 70px;
+
+}
+
+
+
+header{
+    justify-content: space-between;
+    padding: 10px 10px;
+    border-bottom: 2px solid gray;
+    background: whitesmoke;
+    color: gray;
+    text-align:center;
+
+
+}
+
+.btn-primary{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+main{
+background: linear-gradient(150deg, whitesmoke 20%, lightgray 80%);
+    overflow-y: auto;
+
+
+
+}
+
+#messageFelt {
+    text-align: left;
+    padding-left: 17%;
+}
+
+#sidebar{
+
+    height: 100%;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width:10em;
+    background:gray;
+    padding-top: 12.3%;
+}
+
+
+.btn-secondary{
+    background-color: #3782fa;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block; }
+
+
+.btn-secondary:hover{
+    background-color: cornflowerblue;
+
+}
+
+
+
+footer form  {
+    align-items: stretch;
+    display:flex;
+    height:60px;
+
+
+
+}
+
+#sendMsg{
+    background:#3782fa;
+    width:20%;
+
+}
+
+
+footer form input{
+
+  display:flex;
+    flex:1;
+    text-align:center;
+
+
+
+}
